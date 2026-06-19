@@ -141,7 +141,7 @@ public class Canon : MonoBehaviour
         bullet_rb.angularVelocity = Vector3.zero;
         Vector3 v = transform.rotation.eulerAngles;
         float rd = (v.y + 90) * Mathf.Deg2Rad;
-        float rd2 = (v.z + 15) * Mathf.Deg2Rad;
+        float rd2 = (v.z + 30) * Mathf.Deg2Rad;
         float dx = Mathf.Sin(rd);
         float dz = Mathf.Cos(rd);
         float dy = Mathf.Sin(rd2);
